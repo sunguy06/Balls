@@ -24,8 +24,8 @@ int main ()
     for(int i = 0; i < SIZE; i ++)
         {
         Shariki[i].Radius = random(30) + 5;
-        Shariki[i].x =      random(1500 - Shariki[i].Radius) + Shariki[i].Radius;
-        Shariki[i].y =      random(1000 - Shariki[i].Radius) + + Shariki[i].Radius;
+        Shariki[i].x =      random(1464 - Shariki[i].Radius) + Shariki[i].Radius;
+        Shariki[i].y =      random(964 - Shariki[i].Radius) + Shariki[i].Radius;
         Shariki[i].Vx =     (random(2) - 1) ? random(2) + 1 : -1 * (random(2) + 1);
         Shariki[i].Vy =     (random(2) - 1) ? random(2) + 1 : -1 * (random(2) + 1);
         Shariki[i].Red =    random(155) + 100;
